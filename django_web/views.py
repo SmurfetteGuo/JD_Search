@@ -2,8 +2,8 @@ from django.shortcuts import render
 from .models import DjangoWebProductmessage
 from django.shortcuts import render
 from django.db import connection
-from django_web.selectModel import select as se
-from django_web.selectModel import word2vec as wv
+# from django_web.selectModel import select as se
+# from django_web.selectModel import word2vec as wv
 from django_web.es_search import es_search as es
 # Create your views here.
 def index(request):
